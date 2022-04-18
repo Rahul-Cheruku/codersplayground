@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/3ffdc35bd0.js" crossorigin="anonymous"></script>
+  <!-- External css -->
+  <link rel="stylesheet" href="CSS/styles.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <!-- Nav bar -->
+  <nav style="background-color: #97DBAE;" class="navbar navbar-expand-lg navbar-light navik">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://docs.google.com/forms/d/e/1FAIpQLSey0CkNfFq5zjgAP96paAnLxt2VePMFpwfxgPzo4RXqukAMHg/viewform">Coder's Playground</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#manual">Event Manual</a>
+          <a class="nav-link" href="#round1">Round 1</a>
+          <a class="nav-link" href="#round2">Round 2</a>
+          <a class="nav-link" href="#round3">Round 3</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Registration and intro block -->
+  <div class="intro bg-image">
+    <h1 style="padding-top:3rem;">Anveshan 2k22</h1>
+    <!-- <h1>ECstasy</h1> -->
+    <h1>presents</h1>
+    <h1 id="intro-name">Coder's Playground <i style="color:#fff" class="fa-solid fa-code"></i></h1>
+    <table class="intro-table">
+      <tr>
+        <td>
+          <h2>Code it Out!</h2>
+          <h3 style="font-size:1rem">Registration Fee: ₹30</h3>
+        </td>
+        <td><button type="button" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSey0CkNfFq5zjgAP96paAnLxt2VePMFpwfxgPzo4RXqukAMHg/viewform';" class="btn btn-success btn-lg registration-button">Registration<i class="fa-solid fa-address-card"></i></button></td>
+      </tr>
+    </table>
+
+
+  </div>
+
+
+  <!-- event description -->
+  <h1 class="heading ">Event</h1>
+  <hr class="heading-friend">
+  <div class="event-description text-presentation">
+    <p>Coder's Playground is the most awaited coding event where you can put your skills and ability into the implementation of an algorithm that may be as simple as a printing pattern or any number.
+      <br>
+
+
+    <br>
+
+      Round 1 is easy and fun to do.<br>
+      Rounds 2 and 3 will be based on evaluating participants’ coding skills. <br>
+      Participant will be allotted a computer under the supervision of our team
+        member on which he needs to use his skills to complete challenges under
+        a certain time limit.
+        <br>
+        <br>
+        All it takes is your will to learn and compete. Don't lose this opportunity.
+        <br><span style="color:green;"><strong> Do you have what it takes?</strong></span>
+        </p>
+
+
+
+    <hr class="divider">
+  </div>
+
+
+  <!-- Event Overview -->
+  <h1 class="heading">Overview</h1>
+  <hr class="heading-friend">
+  <div class="eve-over text-presentation" id="eve-over">
+
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Round 1</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title"></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Reeborg's World</li>
+              <li>Python or JavaScript</li>
+              <li>Move robot on path</li>
+            </ul>
+            <button type="button" onclick="window.location.href='#round1';" class="w-100 btn btn-success btn-lg">More Details</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Round 2</h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Code Debugging</li>
+              <li>Simple Problem Statments</li>
+              <li>Predict the Output</li>
+
+            </ul>
+            <button type="button" class="w-100 btn btn-success btn-lg" onclick="window.location.href='#round2';">More Details</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm ">
+          <div class="card-header py-3 ">
+            <h4 class="my-0 fw-normal">Round 3</h4>
+          </div>
+          <div class="card-body">
+
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Final Round</li>
+              <li>Blank Screen Coding</li>
+              <li>Challenging Problems</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-success btn-lg" onclick="window.location.href='#round3';">More Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <hr class="divider">
+
+
+  <!-- Round 1 -->
+  <h1 class="heading" id="round1">Round 1</h1>
+  <hr class="heading-friend">
+  <br>
+  <br>
+  <h1 class="subtitle">Chhati hai chhappan <br>
+Reeborrg Jeetega apan</h1>
+  <hr class="heading-friend">
+  <div  class=" text-presentation">
+    <p>
+      In this round, You need to code to move the robot on screen to specific location using JavaScript or python. <br> <br>
+      You can use Python or JavaScript. <br> <br>
+      If you don't know how to code, take this as an opportunity and learn the basics you will surely enjoy solving problems. Believe me, coding is fun.
+      <br>
+      <br>
+    </p>
+
+    <h2 class="subtitle"> Example of problem in Round1: </h2>
+    <hr class="heading-friend">
+    <div class="image-presentation">
+    <img class="image-presentation" src="img\reeborg.jpg" alt=""></div>
+
+  </div>
+  <hr class="divider">
+
+
+
+  <!-- round 2 -->
+
+
+
+  <h1 class="heading" id="round2">Round 2</h1>
+  <hr class="heading-friend">
+  <br>
+  <br>
+  <h1 class="subtitle">Chhati hai chhappan <br>
+code debugg karega apan</h1>
+  <hr class="heading-friend">
+  <div  class="text-presentation">
+    <p>
+      In this round we have 3 tasks in your preferred language. <br> <br>
+      Debugging Code <i class="fa-solid fa-bug-slash"></i> <br>
+      Predict The Output <i class="fa-solid fa-play"></i> <br>
+      Problem Statment (Level: Intermediate)<i class="fa-solid fa-triangle-exclamation"></i><br><br>
+      You can use :<br>
+      Python <i class="fa-brands fa-python"></i>
+      C <i class="fa-duotone fa-square-c"></i>
+      C++
+      JavaScript <i class="fa-brands fa-js"></i>
+
+      <br><br>
+    </p>
+
+    <h2 class="subtitle"> Excited right? Wait for Round3 LOL.</h2>
+
+
+  </div>
+  <hr class="divider">
+
+  <!-- round 3 -->
+
+    <h1 class="heading" id="round3">Round 3</h1>
+    <hr class="heading-friend">
+    <br>
+    <br>
+    <h1 class="subtitle">Tupun screen nikaldo <br>
+    Apun code nikalega</h1>
+    <hr class="heading-friend">
+    <div class="image-presentation">
+    <img class="image-presentation" src="https://www.clipartmax.com/png/full/145-1451732_%E2%80%9Cblind-coding%E2%80%9D-sounds-funny-right-yeah-but-its-quite-blind-coding.png" alt=""></div>
+
+  </div>
+
+    <div  class="text-presentation">
+      <p>
+        In this round you have to solve problem <i class="fa-solid fa-triangle-exclamation"></i> in your preferred language. <br> <br>
+        But we already solved problem right? Well, Not on <span style="color:red;">Blank screen.</span> <br> <br>
+        We will disconnect monitor you will be provided rough paper for refering your code which you will type only looking at keyboard.<br> <br>
+        On this tough challenge you can't even use trial & error, only one time run chance is given. <br>
+        Winner will be decided on basis of time-taken. <br> <br>
+        You can use :<br>
+        Python <i class="fa-brands fa-python"></i>
+        C <i class="fa-duotone fa-square-c"></i>
+        C++
+        JavaScript <i class="fa-brands fa-js"></i>
+
+        <br><br>
+      </p>
+        <hr class="divider">
+
+
+      <!-- manual -->
+
+
+          <h1 class="heading" id="manual">Event Manuals</h1>
+          <hr class="heading-friend">
+
+      <div class="manual">
+        <button onclick="window.location.href='https://drive.google.com/file/d/1dg1RSXyNhq7ROHfjQLxzryOCPQelj12j/view?usp=sharing';" type="button" class="btn btn-secondary btn-lg manual-button">Event Manual<span> </span> <i class="fa-solid fa-book"></i></button>
+        <button onclick="window.location.href='https://drive.google.com/file/d/1FJegidc1NMmXuz8j-HuWcTNNcNwn7ZKn/view?usp=sharing';" type="button" class="btn btn-secondary btn-lg manual-button">Participant Manual<span> </span> <i class="fa-solid fa-book"></i></button>
+
+      </div>
+
+
+      <h2 class="subtitle"> What are you waiting for? Register yourself now! Fee is nominal worth a try isn't it?</h2>
+      <br>
+      <br>
+      <button type="button" class="btn btn-success btn-lg registration-button" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSey0CkNfFq5zjgAP96paAnLxt2VePMFpwfxgPzo4RXqukAMHg/viewform';">Registration<i class="fa-solid fa-address-card"></i></button>
+
+
+
+    </div>
+    <hr class="divider">
+
+<!--  -->
+
+
+
+<!--  -->
+
+    <!-- footer -->
+
+    <div class="footer">
+      Any query? You can contact us here:
+      <div class="">
+        <button onclick="window.location.href='http://wa.me/918849523431';" type="button" class="btn btn-success btn-lg registration-button">Rahul <span>  </span> <i class="fa-brands fa-whatsapp"></i></button>
+
+        <button onclick="window.location.href='http://wa.me/917984458651';" type="button" class="btn btn-success btn-lg registration-button">Manisha <span>  </span> <i class="fa-brands fa-whatsapp"></i></button>
+
+        <button onclick="window.location.href='http://wa.me/919327530166';" type="button" class="btn btn-success btn-lg registration-button">Nihar <span>  </span> <i class="fa-brands fa-whatsapp"></i></button>
+
+      </div>
+
+
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

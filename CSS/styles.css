@@ -1,0 +1,93 @@
+body{
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
+.intro{
+  background-image: url("https://cdn.wallpapersafari.com/80/55/T9m8Pt.png");
+  background-size: cover;
+  text-align: center;
+  }
+
+
+.divider {
+  border-top: 10px dotted green;
+  width: 20%;
+  margin: 5% auto;
+  background-color: #fff;
+}
+
+.intro h1{
+  color: white;
+  font-size: 2rem;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 900;
+
+}
+.heading{
+  font-weight: 600;
+  padding: 3% 3% 0% 3%;
+  text-align: center;
+  font-size: 3rem;
+  margin: auto auto 0 auto;
+}
+.subtitle{
+  font-weight: 500;
+  padding: 3% 3% 0% 3%;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: auto auto 0 auto;
+}
+.heading-friend{
+  width: 20%;
+	border-top: 10px solid green;
+  margin: 0 auto auto auto;
+  padding-top: 0;
+  margin-bottom: 3%;
+
+}
+
+.text-presentation{
+  text-align: center;
+  padding: 3%;
+  margin: auto 10%;
+}
+.image-presentation{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+/* body{
+  font-family: 'Source Code Pro', monospace;
+} */
+#intro-name{
+  font-size: 5rem;
+  text-align: center;
+  padding: 3%;
+  color: #fff;
+  font-weight: 900;
+  margin-bottom: 9rem;
+}
+.intro-table{
+  position: relative;
+  margin: auto;
+}
+.intro-table td{
+  text-align: right;
+  color: #fff;
+  padding: 10%;
+}
+
+.eve-over{
+  margin: auto 10% ;
+}
+.footer{
+  text-align: center;
+  background: grey;
+}
+.manual-button{
+  margin: 2% auto;
+}
+/* .registration-button{
+  display: inline-block;
+  margin: auto;
+} */
